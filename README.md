@@ -7,5 +7,5 @@ Okulumuzdaki etkileşimli tahtalarda öğretmenlerin Windows PC üzerinde buluna
 ## Pardus ETAP 23’te Gerekli Paketler
 ### sudo apt install python3-gi gir1.2-gtk-3.0 cifs-utils gvfs-backends gvfs-fuse
 ## Çalıştırma
-#### sudo chmod +x /usr/local/sbin/ogretmen_paylasim_etap.py
+#### sudo chmod +x ogretmen_paylasim_etap.py
 #### sudo python3 ogretmen_paylasim_etap.py
