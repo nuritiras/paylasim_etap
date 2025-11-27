@@ -111,7 +111,7 @@ class OgretmenEtapPenceresi(Gtk.Window):
 
         # Sunucu
         self.entry_server = Gtk.Entry()
-        self.entry_server.set_text("10.10.10.5")
+        self.entry_server.set_text("10.46.197.90")
         grid.attach(etiket("Sunucu IP / Ad:"), 0, satir, 1, 1)
         grid.attach(self.entry_server,          1, satir, 2, 1)
         satir += 1
@@ -132,7 +132,7 @@ class OgretmenEtapPenceresi(Gtk.Window):
 
         # Kullanıcı
         self.entry_user = Gtk.Entry()
-        self.entry_user.set_text("ogrt")
+        self.entry_user.set_text("tsomtal")
         grid.attach(etiket("Windows Kullanıcı Adı:"), 0, satir, 1, 1)
         grid.attach(self.entry_user,                 1, satir, 2, 1)
         satir += 1
